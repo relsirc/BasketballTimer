@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412933DC20EFA144008DDAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412933DB20EFA144008DDAD1 /* AppDelegate.swift */; };
+		412933DE20EFA144008DDAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412933DD20EFA144008DDAD1 /* ViewController.swift */; };
+		412933E120EFA144008DDAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412933DF20EFA144008DDAD1 /* Main.storyboard */; };
+		412933E320EFA146008DDAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412933E220EFA146008DDAD1 /* Assets.xcassets */; };
+		412933E620EFA146008DDAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412933E420EFA146008DDAD1 /* LaunchScreen.storyboard */; };
+		412933F120EFA147008DDAD1 /* BasketballTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412933F020EFA147008DDAD1 /* BasketballTimerTests.swift */; };
+		412933FC20EFA8F2008DDAD1 /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412933FB20EFA8F2008DDAD1 /* CustomExtensions.swift */; };
+		4129340420EFB1BF008DDAD1 /* buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4129340320EFB1BF008DDAD1 /* buzzer.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		412933ED20EFA147008DDAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412933D020EFA144008DDAD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412933D720EFA144008DDAD1;
+			remoteInfo = BasketballTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		412933D820EFA144008DDAD1 /* BasketballTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketballTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412933DB20EFA144008DDAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		412933DD20EFA144008DDAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		412933E020EFA144008DDAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		412933E220EFA146008DDAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		412933E520EFA146008DDAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		412933E720EFA147008DDAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412933EC20EFA147008DDAD1 /* BasketballTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketballTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412933F020EFA147008DDAD1 /* BasketballTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballTimerTests.swift; sourceTree = "<group>"; };
+		412933F220EFA147008DDAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412933FB20EFA8F2008DDAD1 /* CustomExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
+		4129340320EFB1BF008DDAD1 /* buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buzzer.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		412933D520EFA144008DDAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412933E920EFA147008DDAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		412933CF20EFA144008DDAD1 = {
+			isa = PBXGroup;
+			children = (
+				412933DA20EFA144008DDAD1 /* BasketballTimer */,
+				412933EF20EFA147008DDAD1 /* BasketballTimerTests */,
+				412933D920EFA144008DDAD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		412933D920EFA144008DDAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412933D820EFA144008DDAD1 /* BasketballTimer.app */,
+				412933EC20EFA147008DDAD1 /* BasketballTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		412933DA20EFA144008DDAD1 /* BasketballTimer */ = {
+			isa = PBXGroup;
+			children = (
+				4129340020EFAF54008DDAD1 /* Source */,
+				412933FD20EFAF25008DDAD1 /* Resources */,
+				412933DF20EFA144008DDAD1 /* Main.storyboard */,
+				412933E420EFA146008DDAD1 /* LaunchScreen.storyboard */,
+				412933E720EFA147008DDAD1 /* Info.plist */,
+			);
+			path = BasketballTimer;
+			sourceTree = "<group>";
+		};
+		412933EF20EFA147008DDAD1 /* BasketballTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				412933F020EFA147008DDAD1 /* BasketballTimerTests.swift */,
+				412933F220EFA147008DDAD1 /* Info.plist */,
+			);
+			path = BasketballTimerTests;
+			sourceTree = "<group>";
+		};
+		412933FD20EFAF25008DDAD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4129340320EFB1BF008DDAD1 /* buzzer.wav */,
+				412933E220EFA146008DDAD1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4129340020EFAF54008DDAD1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				412933FB20EFA8F2008DDAD1 /* CustomExtensions.swift */,
+				412933DB20EFA144008DDAD1 /* AppDelegate.swift */,
+				412933DD20EFA144008DDAD1 /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412933D720EFA144008DDAD1 /* BasketballTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412933F520EFA147008DDAD1 /* Build configuration list for PBXNativeTarget "BasketballTimer" */;
+			buildPhases = (
+				412933D420EFA144008DDAD1 /* Sources */,
+				412933D520EFA144008DDAD1 /* Frameworks */,
+				412933D620EFA144008DDAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasketballTimer;
+			productName = BasketballTimer;
+			productReference = 412933D820EFA144008DDAD1 /* BasketballTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		412933EB20EFA147008DDAD1 /* BasketballTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412933F820EFA147008DDAD1 /* Build configuration list for PBXNativeTarget "BasketballTimerTests" */;
+			buildPhases = (
+				412933E820EFA147008DDAD1 /* Sources */,
+				412933E920EFA147008DDAD1 /* Frameworks */,
+				412933EA20EFA147008DDAD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412933EE20EFA147008DDAD1 /* PBXTargetDependency */,
+			);
+			name = BasketballTimerTests;
+			productName = BasketballTimerTests;
+			productReference = 412933EC20EFA147008DDAD1 /* BasketballTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412933D020EFA144008DDAD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Crisler;
+				TargetAttributes = {
+					412933D720EFA144008DDAD1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					412933EB20EFA147008DDAD1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 412933D720EFA144008DDAD1;
+					};
+				};
+			};
+			buildConfigurationList = 412933D320EFA144008DDAD1 /* Build configuration list for PBXProject "BasketballTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 412933CF20EFA144008DDAD1;
+			productRefGroup = 412933D920EFA144008DDAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412933D720EFA144008DDAD1 /* BasketballTimer */,
+				412933EB20EFA147008DDAD1 /* BasketballTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412933D620EFA144008DDAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129340420EFB1BF008DDAD1 /* buzzer.wav in Resources */,
+				412933E620EFA146008DDAD1 /* LaunchScreen.storyboard in Resources */,
+				412933E320EFA146008DDAD1 /* Assets.xcassets in Resources */,
+				412933E120EFA144008DDAD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412933EA20EFA147008DDAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412933D420EFA144008DDAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412933FC20EFA8F2008DDAD1 /* CustomExtensions.swift in Sources */,
+				412933DE20EFA144008DDAD1 /* ViewController.swift in Sources */,
+				412933DC20EFA144008DDAD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412933E820EFA147008DDAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412933F120EFA147008DDAD1 /* BasketballTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		412933EE20EFA147008DDAD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412933D720EFA144008DDAD1 /* BasketballTimer */;
+			targetProxy = 412933ED20EFA147008DDAD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		412933DF20EFA144008DDAD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412933E020EFA144008DDAD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		412933E420EFA146008DDAD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412933E520EFA146008DDAD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		412933F320EFA147008DDAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		412933F420EFA147008DDAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412933F620EFA147008DDAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65G34S7U3;
+				INFOPLIST_FILE = BasketballTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.relsirc.BasketballTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		412933F720EFA147008DDAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T65G34S7U3;
+				INFOPLIST_FILE = BasketballTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.relsirc.BasketballTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		412933F920EFA147008DDAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGTVP83ZGP;
+				INFOPLIST_FILE = BasketballTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.relsirc.BasketballTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasketballTimer.app/BasketballTimer";
+			};
+			name = Debug;
+		};
+		412933FA20EFA147008DDAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGTVP83ZGP;
+				INFOPLIST_FILE = BasketballTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.relsirc.BasketballTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasketballTimer.app/BasketballTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412933D320EFA144008DDAD1 /* Build configuration list for PBXProject "BasketballTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412933F320EFA147008DDAD1 /* Debug */,
+				412933F420EFA147008DDAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412933F520EFA147008DDAD1 /* Build configuration list for PBXNativeTarget "BasketballTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412933F620EFA147008DDAD1 /* Debug */,
+				412933F720EFA147008DDAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412933F820EFA147008DDAD1 /* Build configuration list for PBXNativeTarget "BasketballTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412933F920EFA147008DDAD1 /* Debug */,
+				412933FA20EFA147008DDAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 412933D020EFA144008DDAD1 /* Project object */;
+}
