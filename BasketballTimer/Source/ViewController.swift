@@ -67,6 +67,7 @@ class ViewController: UIViewController {
         if timeRemaining == 0 {
             timer.invalidate()
             playBuzzerSound()
+            startButton.setTitle("START", for: .normal)
         }
     }
     
