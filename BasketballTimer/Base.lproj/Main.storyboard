@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KwI-hN-aUz">
-                                <rect key="frame" x="47" y="187" width="931" height="394"/>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="165" translatesAutoresizingMaskIntoConstraints="NO" id="KwI-hN-aUz">
+                                <rect key="frame" x="10" y="187" width="1004" height="394"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="330"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -69,8 +69,10 @@
                             <constraint firstItem="KwI-hN-aUz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D1K-rO-Ssx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e2N-Uo-mzk" secondAttribute="bottom" constant="50" id="F7j-c3-YdF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Iq8-Kp-nvX" secondAttribute="bottom" constant="81" id="M4O-LT-uFP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KwI-hN-aUz" secondAttribute="trailing" constant="10" id="MYY-TW-fom"/>
                             <constraint firstItem="dlO-jG-rjO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="Pzo-CU-yl8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dlO-jG-rjO" secondAttribute="bottom" constant="50" id="Qjs-UE-cMG"/>
+                            <constraint firstItem="KwI-hN-aUz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="q1m-KA-eSW"/>
                             <constraint firstItem="Iq8-Kp-nvX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sy8-q0-32k"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
