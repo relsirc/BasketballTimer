@@ -118,6 +118,7 @@ class ViewController: UIViewController {
     
     @IBAction func stopButtonPressed(_ sender: Any) {
         timer.invalidate()
+        isTimerRunning = false
         timeRemaining = 420
         timeFinish = 420
         timeLeftLabel.text = "07:00"
